@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CodeDemo.Document</name>
+    </assembly>
+    <members>
+        <member name="T:CodeDemo.Document.NPOIHelper.ExcelHelper">
+            <summary>
+            Excel
+            </summary>
+        </member>
+        <member name="M:CodeDemo.Document.NPOIHelper.ExcelHelper.GetWorkbook(System.String)">
+            <summary>
+            通过文件名获取workbook
+            </summary>
+            <param name="fileName"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
