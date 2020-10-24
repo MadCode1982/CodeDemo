@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CodeDemo.DesignPattern</name>
+    </assembly>
+    <members>
+        <member name="T:CodeDemo.DesignPattern.CreationalPattern.AbstractFactoryPattern.IAbstractFactory">
+            <summary>
+            抽象工厂
+            </summary>
+        </member>
+        <member name="T:CodeDemo.DesignPattern.PrototypePattern.DeepClone">
+            <summary>
+            深克隆
+            </summary>
+        </member>
+        <member name="M:CodeDemo.DesignPattern.PrototypePattern.DeepClone.DeepCloneStream">
+            <summary>
+            深克隆 通过 Stream
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CodeDemo.DesignPattern.PrototypePattern.DeepClone.DeepCloneJson">
+            <summary>
+            深克隆通过JSON
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:CodeDemo.DesignPattern.PrototypePattern.ShallowClone">
+            <summary>
+            浅克隆
+            </summary>
+        </member>
+        <member name="M:CodeDemo.DesignPattern.PrototypePattern.ShallowClone.ShallowCloneObj">
+            <summary>
+            浅克隆
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:CodeDemo.DesignPattern.SingletonPattern.HungrySingleton">
+            <summary>
+            饿汉模式单例
+            </summary>
+        </member>
+        <member name="P:CodeDemo.DesignPattern.SingletonPattern.HungrySingleton.Instance">
+            <summary>
+            静态实例
+            </summary>
+        </member>
+        <member name="T:CodeDemo.DesignPattern.SingletonPattern.MultiThreadSingleton">
+            <summary>
+            多线程单单例模式
+            </summary>
+        </member>
+        <member name="F:CodeDemo.DesignPattern.SingletonPattern.MultiThreadSingleton._instance">
+            <summary>
+            实例
+            </summary>
+        </member>
+        <member name="F:CodeDemo.DesignPattern.SingletonPattern.MultiThreadSingleton.LockHelper">
+            <summary>
+            线程锁
+            </summary>
+        </member>
+        <member name="P:CodeDemo.DesignPattern.SingletonPattern.MultiThreadSingleton.Instance">
+            <summary>
+            获取实例
+            </summary>
+        </member>
+        <member name="T:CodeDemo.DesignPattern.SingletonPattern.SingleThreadSingleton">
+            <summary>
+            单线程单例模式
+            </summary>
+        </member>
+        <member name="F:CodeDemo.DesignPattern.SingletonPattern.SingleThreadSingleton._instance">
+            <summary>
+            静态实例
+            </summary>
+        </member>
+        <member name="P:CodeDemo.DesignPattern.SingletonPattern.SingleThreadSingleton.Instance">
+            <summary>
+            获取实例
+            </summary>
+        </member>
+    </members>
+</doc>
