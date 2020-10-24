@@ -8,4 +8,8 @@
     <DocumentationFile>F:\Git\CodeDemo\CodeDemo.DesignPattern\CodeDemo.DesignPattern.xml</DocumentationFile>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="StructurePattern\BridgePattern\" />
+  </ItemGroup>
+
 </Project>
